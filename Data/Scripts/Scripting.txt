@@ -1,0 +1,8 @@
+Lua (*.lua) scripts go here, but in the following folders that can be made:
+
+AI
+FreeStore
+GameObject
+Library
+Miscellaneous
+Story

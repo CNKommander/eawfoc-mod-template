@@ -1,0 +1,1 @@
+In-game text is stored here in a specific file called MasterTextFile_[Language].dat (MasterTestFile_English.dat for example)
