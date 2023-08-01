@@ -1,0 +1,19 @@
+name: Upload to Steam Workshop
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: AnarkisGaming/workshop@v1
+        with:
+          appID: 32470
+          publishedFileID: 2978074984
+        env:
+          STEAM_ACCOUNT_NAME: ${{ secrets.STEAM_ACCOUNT_NAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
