@@ -1,4 +1,6 @@
-# EAWFOC Mod Template
+> # **This repository is now deprecated. Please refer to <https://github.com/sanick2/eawfoc_mod_generator>**
+
+## EAWFOC Mod Template
 This repository is aimed at helping new modders to Empire at War get started on new mod projects
 in a quick and easy way.
 
